@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  font: 1em sans-serif;
+  text-align: center;
+
+
+
+}
+
+
+.wraper {
+  background: url("../img/step.jpg") no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 715px;
+  position: relative;
+
+
+}
+
+
+
+
+
+.main__car {
+  height: 90px;
+  width: 160px;
+  position: absolute;
+}
+
+.first {
+  background: url("../img/cut/a.jpg") no-repeat;
+  left: 660px;
+  top: 373px;
+}
+
+.second {
+  background: url("../img/cut/b.jpg") no-repeat;
+  left: 340px;
+  top: 420px;
+  z-index: 1;
+}
+
+.third {
+  background: url("../img/cut/c.jpg") no-repeat;
+  left: 500px;
+  top: 420px;
+
+}
+
+.fourth {
+  background: url("../img/cut/d.jpg") no-repeat;
+  left: 660px;
+  top: 420px;
+
+}
+
+.fifth {
+  background: url("../img/cut/e.jpg") no-repeat;
+  left: 340px;
+  top: 500px;
+
+}
+
+.sixth {
+  background: url("../img/cut/f.jpg") no-repeat;
+  left: 500px;
+  top: 500px;
+
+}
+
+
+.evgen {
+  background: url("../img/evgen.png") no-repeat;
+  top: 350px;
+  left: 400px;
+  z-index: 0;
+  opacity: 0;
+}
+
+.main:hover .evgen {
+  opacity: 1;
+}
+
+.main:hover .rocket {
+  opacity: 1;
+}
+
+.man {
+  display: flex;
+  height: 480px;
+  width: 100%;
+  position: relative;
+}
+
+.link {
+  margin-bottom: 50px;
+}
+
+a {
+  text-align: left;
+  font-size: large;
+  font-weight: 900;
+  color: purple;
+  font-size: 40px;
+
+}
+
+
+.rocket {
+  overflow: hidden;
+
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background: url("../img/60a28c28-b873-4c28-9142-4c6bb4d20b41.png") 0 0 / 50px 50px no-repeat;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+  width: 100px;
+  opacity: 0;
+}
+
+.man__rocket {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translatex(0) translateY(0);
+  }
+
+  100% {
+    transform: translatex(740px) translateY(-300px);
+  }
+}
+
+.wrapper {
+  background: url("../img/ddd.jpg") no-repeat fixed;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 5000px;
+  position: relative;
+  padding: 0 500px;
+
+
+}
+
+.practice__block {
+
+  width: 500px;
+  height: 100px;
+  background-color: black;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.practice {
+  margin-bottom: 200px;
+
+}
+
+.red {
+  background-color: red;
+  position: relative;
+
+  z-index: 2;
+}
+
+.green {
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  z-index: 1;
+
+
+}
+
+.aqua {
+  background-color: aqua;
+  z-index: 2;
+
+}
+
+
+.yellow {
+
+  background-color: yellow;
+  position: absolute;
+
+  left: 10px;
+
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  left: 1000px;
+  z-index: 0;
+}
+
+.purple {
+  background-color: purple;
+  position: absolute;
+  z-index: 1;
+
+
+
+
+}
